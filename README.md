@@ -20,7 +20,7 @@ Pandas provides two main data structures:
 
 A DataFrame is the most commonly used structure for handling datasets in Pandas. It allows users to store data in tabular format and perform operations such as filtering, sorting, statistical analysis, and exporting data.
 
-Function Used: pd.DataFrame()
+--->Function Used: pd.DataFrame()
 
 Syntax: df = pd.DataFrame(data)
 
@@ -34,22 +34,22 @@ This creates a tabular dataset named df.
 
 Saving Dataset to CSV File
 
-Function Used: df.to_csv()
+--->Function Used: df.to_csv()
 
 Syntax: df.to_csv("filename.csv", index=False)
 
 Description: Converts the DataFrame into a CSV (Comma Separated Values) file.
 CSV files are commonly used for storing tabular data and can be opened in software such as Excel. index=False prevents Pandas from writing row index numbers into the file.
 
-Function used: df.shape
+--->Function used: df.shape
 
 It returns the dimensions of the dataset.
 
-Function used: df.size
+--->Function used: df.size
 
 It return the total number of elements in the dataset
 
-Function used: df.info
+--->Function used: df.info
 
 This function provides a summary of the DataFrame, including:
 
@@ -63,39 +63,39 @@ Data types of each column
 
 Memory usage
 
-Function used: df.describe
+--->Function used: df.describe
 
 This function generates statistical summary of numerical columns in the dataset.
 
-Function used: df.head()
+--->Function used: df.head()
 
 df.head() is a Pandas function used to display the first 5 rows of a DataFrame. It helps users quickly view the structure and contents of the dataset without printing the entire data.
 
-Function used: df.tails()
+--->Function used: df.tails()
 
 df.tail() is a Pandas function used to display the last few rows of a DataFrame. It helps users quickly view the ending records of the dataset without printing the entire table.
 
 By default, the function returns the last 5 rows of the dataset. You can also specify the number of rows you want to display.
 
-Function used: df.columns
+--->Function used: df.columns
 
 df.columns is a Pandas attribute used to display the names of all the columns present in a DataFrame. When used with print(), it outputs the list of column labels in the dataset.
 
 This helps users quickly understand the structure of the dataset and the available variables.
 
-Function used: df.sample()
+--->Function used: df.sample()
 
 df.sample() is a Pandas function used to display random rows from a DataFrame. It helps in selecting a random sample of data from the dataset.
 
-Function used: df.isnull().sum()
+--->Function used: df.isnull().sum()
 
 df.isnull().sum() is a Pandas operation used to check for missing (null) values in a dataset. It helps identify how many missing values are present in each column of the DataFrame.
 
-Function used: df.duplicated().sum()
+--->Function used: df.duplicated().sum()
 
 df.duplicated().sum() is a Pandas operation used to find the number of duplicate rows in a DataFrame.
 
-Function used: df.nunique()
+--->Function used: df.nunique()
 
 df.nunique() is a Pandas function used to count the number of unique (distinct) values in each column of a DataFrame.
 
