@@ -101,7 +101,7 @@ df.nunique() is a Pandas function used to count the number of unique (distinct) 
 
 It checks every column in the dataset and returns the total number of different values present in that column.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Conclusion**
 
